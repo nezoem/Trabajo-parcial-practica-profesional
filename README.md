@@ -1,4 +1,5 @@
-# Trabajo-parcial-practica-profesional
+Aquí tienes el código HTML para una página web que habla sobre los dinosaurios de Argentina, cumpliendo con todas las consignas que mencionaste:
+
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -13,70 +14,70 @@
 
     <section>
         <h2>Introducción</h2>
-        <p>Argentina es uno de los países más importantes en el estudio de los dinosaurios debido a la gran cantidad de fósiles encontrados en su territorio.</p>
-        <p>Estos descubrimientos han aportado información valiosa sobre la diversidad y evolución de estos animales prehistóricos.</p>
+        <p>Argentina es uno de los países más ricos en fósiles de dinosaurios. En sus tierras se han encontrado restos de diversas especies que habitaron hace millones de años.</p>
     </section>
 
     <section>
-        <h2>Especies destacadas</h2>
-        <p>Entre los dinosaurios más conocidos encontrados en Argentina están el Giganotosaurus, uno de los mayores carnívoros terrestres, y el Argentinosaurus, uno de los dinosaurios más grandes que se conocen.</p>
-        <p>Ambos ejemplares representan un patrimonio paleontológico único para el país y el mundo.</p>
+        <h2>Especies Destacadas</h2>
+        <p>Entre los dinosaurios más famosos de Argentina se encuentran el Argentinosaurus, uno de los dinosaurios más grandes que jamás haya existido, y el Giganotosaurus, un depredador temible.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Argentinosaurus_1.jpg" alt="Argentinosaurus" width="500">
+        <p>Argentinosaurus</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Giganotosaurus_1.jpg" alt="Giganotosaurus" width="500">
+        <p>Giganotosaurus</p>
+
+        <a href="https://es.wikipedia.org/wiki/Argentinosaurus" target="_blank">Más sobre Argentinosaurus</a>
+        <br>
+        <a href="https://es.wikipedia.org/wiki/Giganotosaurus">Más sobre Giganotosaurus</a>
     </section>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Giganotosaurus_BW.jpg" alt="Dibujo del Giganotosaurus" width="400">
+    <section>
+        <h2>Lista de Dinosaurios Argentinos</h2>
+        <ul>
+            <li>Argentinosaurus</li>
+            <li>Giganotosaurus</li>
+            <li>Patagotitan</li>
+        </ul>
 
-    <p>Para más información sobre los dinosaurios argentinos puedes visitar 
-        <a href="https://es.wikipedia.org/wiki/Dinosaurios_de_Argentina" target="_blank">Wikipedia - Dinosaurios de Argentina</a> 
-        o nuestra 
-        <a href="#contacto">sección de contacto</a>.
-    </p>
+        <ol>
+            <li>Therizinosaurus</li>
+            <li>Raptor</li>
+            <li>Amphicoelias</li>
+        </ol>
+    </section>
 
-    <h3>Tipos de dinosaurios encontrados:</h3>
-    <ul>
-        <li>Terópodos</li>
-        <li>Saurópodos</li>
-        <li>Ornitópodos</li>
-    </ul>
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
 
-    <h3>Investigaciones recientes:</h3>
-    <ol>
-        <li>Descubrimiento del Giganotosaurus en la Patagonia.</li>
-        <li>Estudios sobre Argentinosaurus y su tamaño.</li>
-        <li>Análisis del ecosistema cretácico argentino.</li>
-    </ol>
+            <label for="dinoChoice">¿Cuál es tu dinosaurio favorito?</label><br>
+            <input type="radio" id="argentinosaurus" name="dinoChoice" value="argentinosaurus">
+            <label for="argentinosaurus">Argentinosaurus</label><br>
+            <input type="radio" id="giganotosaurus" name="dinoChoice" value="giganotosaurus">
+            <label for="giganotosaurus">Giganotosaurus</label><br><br>
 
-    <form action="#" method="post">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Quiero recibir novedades sobre dinosaurios.</label><br><br>
 
-        ¿Cuál es tu dinosaurio favorito?<br>
-        <input type="radio" id="giga" name="dino_fav" value="Giganotosaurus" required>
-        <label for="giga">Giganotosaurus</label><br>
-        <input type="radio" id="argen" name="dino_fav" value="Argentinosaurus">
-        <label for="argen">Argentinosaurus</label><br><br>
-
-        ¿Qué características te interesan? (puede elegir varias)<br>
-        <input type="checkbox" id="tamano" name="caracteristicas" value="Tamaño">
-        <label for="tamano">Tamaño</label><br>
-        <input type="checkbox" id="habitat" name="caracteristicas" value="Hábitat">
-        <label for="habitat">Hábitat</label><br>
-        <input type="checkbox" id="alimentacion" name="caracteristicas" value="Alimentación">
-        <label for="alimentacion">Alimentación</label><br><br>
-
-        <button type="submit">Enviar</button>
-    </form>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
     <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Argentinosaurus_dinosaur.png" alt="Ilustración del Argentinosaurus" width="400">
-        <figcaption>Ilustración artística del Argentinosaurus, uno de los dinosaurios más grandes del mundo.</figcaption>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Titanosaur.jpg" alt="Titanosaurio" width="500">
+        <figcaption>Titanosaurio, otro gigante del pasado argentino.</figcaption>
     </figure>
 
     <footer>
-        <p>&copy; 2025 Dinosaurios Argentina. Visita nuestro 
-            <a href="#contacto">contacto</a>.
-        </p>
+        <p>&copy; 2025 Dinosaurios de Argentina. Todos los derechos reservados.</p>
+        <a href="#">Política de privacidad</a>
     </footer>
 
 </body>
 </html>
+```
+
 ```
