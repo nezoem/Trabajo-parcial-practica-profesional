@@ -1,4 +1,4 @@
-Aquí tienes el código HTML para una página web que habla sobre los dinosaurios de Argentina, cumpliendo con todas las consignas que mencionaste:
+
 
 ```html
 <!DOCTYPE html>
